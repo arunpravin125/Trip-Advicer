@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: "Poppins", sans-serif;
+}
+/* section-one begins */
+
+.logo{
+    height: 50px;
+    width:50px;
+    border-radius:70px ;
+
+}
+.section-one__title{
+    display:flex;
+    position: relative;
+    left:30px;
+    padding:10px;
+    cursor: pointer;
+   
+}
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    position:sticky;
+    background-color: white;
+    top: 0px;
+    padding: 5px;
+    z-index: 3;
+    
+}
+.menuicon{
+    height: 20px;
+    width:20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: none;
+}
+/* .section-two__categaries{
+    position: sticky;
+    top:5%;
+
+} */
+
+.section-one__options{
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.section-one__options p{
+    padding: 20px;
+    cursor: pointer;
+
+}
+.section-one__options p:hover{
+    background-color:blanchedalmond;
+    border-radius: 20px;
+ 
+}
+
+.section-one__signin {
+    padding: 10px;
+    margin-right: 50px;
+    border-color: antiquewhite;
+    cursor: pointer;
+}
+.signin{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 40px;
+    border:solid rgb(9, 7, 7) 3px;
+    opacity: 1;
+    cursor: pointer;
+}
+.signin:hover{
+    /* background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 40px; */
+    border:solid whitesmoke 3px;
+    opacity:0.7 ;
+
+}
+.user{
+    height: 20px;
+    width:20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: none ;
+}
+/* section one end --------------------------*/
+.section-two__options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.house{
+    height: 15px;
+    width:15px;
+    margin-right: 2px;
+    margin-top: 1px;
+}
+.section-two__menus h1{
+    font-size: 60px;
+    padding: 20px;
+
+}
+.section-two__categaries{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+   
+}
+.section-two__categaries p{
+    border-bottom: solid white 1px;
+}
+.section-two__categaries p:hover{
+    border-bottom: solid black 1px;
+}
+.section-two__input{
+    display: flex;
+    margin-top: 20px;
+    background-color:white;
+    justify-content: space-between;
+    border: solid rgb(127, 119, 119) 1px;
+    height: 45px;
+    width:70%;
+    border-radius: 20px;
+    /* new */
+    /* position: sticky;
+    top: 5%; */
+}
+.section-two__input img{
+    height: 15px;
+    width:15px;
+    padding: 10px;
+    display: inline;
+    margin-top: 5px;
+
+}
+.section-two__input input{
+    border:none;
+    width:150%;
+    display: inline-block;
+    margin-right: 50%;
+    outline: none;
+  
+  
+}
+.section-two__input button{
+    background-color:rgb(62, 242, 92);
+    padding: 10px;
+    border-radius: 20px;
+    border: solid rgb(62, 242, 92) 1px;
+    margin: 2px;
+    cursor: pointer;
+}
+.section-two__input button:hover{
+    background-color:rgb(38, 203, 65);
+    border: solid rgb(18, 183, 45) 1px;
+
+}
+.section-two__flex{
+    margin-top: 30px;;
+    position: relative;
+    background-color: #D8D4FB;
+    height: 350px;
+    width: 88%;
+    border-radius: 5px;
+    left: 1%;
+}
+.section-two__image{
+    border-radius: 5px;
+    position:absolute;
+    top:55%;
+    height: 80%;
+    display: inline;
+    left:15%;
+    flex-basis: 60%; 
+
+}
+.section-two__description1{
+    position: absolute;
+    height:5px;
+    left:15%;
+    top:10%;
+    color:rgb(48, 29, 73);
+    display: inline;
+
+}
+.section-two__description2{
+    position: absolute;
+    left:15%;;
+    top:15%;
+    color:rgb(48, 29, 73);
+    font-size: 50px;
+    width: 40%;
+    display: inline;
+
+}
+.section-two__description3{
+    position: absolute;
+    height:5px;
+    left:15%;
+    top:60%;
+    color:rgb(48, 29, 73);
+    font-size: 20px;
+    width:40%;
+    display: inline;
+
+}
+
+/* section-two End--------------------------------------- */
+.section-two__flex{
+   display: flex;
+  
+}
+.section-two__flex img{
+    height: 20%;
+    width:90%;
+}
+.section-three{
+    
+    flex-grow: 2;
+    flex-basis: 20%;
+    gap: 10px;
+    
+}
+.section-three h3,.section-three p{
+    padding: 5px;
+    margin-left: 40px;
+}
+.section-three__images{
+    /* display: flex;
+    flex-basis: 20%;
+    
+    height:15%;
+    width:10%;
+    margin-left: 10px;
+    gap:10px;
+    flex-basis: 20%;
+    justify-content:space-between; */
+    display:flex;
+    
+    margin-top: 10px;
+    
+    justify-content:space-evenly;
+   
+}
+.section-three__photo{
+    height:220px;
+    width:220px;
+}
+
+
+
+/* .name{
+    gap: 10px;
+    display: inline-block;
+}
+
+
+.section-three__photo{
+    /* height:20%;
+    width:20%;
+    margin-left: 30px;
+    gap:10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-basis: 20%;
+    flex-wrap: wrap; */
+
+/* section-four end-------------------------- */
+.section-four{
+    background-color:rgb(160, 101, 158,0.2);
+    display:flex;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    
+}
+.section-four__description1,.section-four__description2,.section-four__description3,.section-four__description4{
+    
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.section-four__description1 p,.section-four__description2 p,.section-four__description3 p,.section-four__description4 p{
+    border-bottom:solid transparent 1px;
+    width:80%;
+
+
+}
+.section-four__description1 p:hover,.section-four__description2 p:hover,.section-four__description3 p:hover,.section-four__description4 p:hover{
+    border-bottom:solid black 1px;
+
+
+}
+/* section-three end---------------------------------------------- */
+.section-five{
+    background-color:rgb(160, 101, 158,0.2);
+}
+
+
+.section-five__description {
+    background-color:rgb(160, 101, 158,0.2);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.two{
+    display: flex;   
+}
+.section-six__icons{
+    margin-left: 40px;
+}
+.section-six__icons img{
+    margin-left: 19px;
+    height: 25px;
+    width:25px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .menuicon{
+        height: 20px;
+        width:20px;
+        margin-left: 7%;
+        margin-top: 20px;
+        display:inline-block;
+    }
+    .section-one__title{
+        display:flex;
+        position: relative;
+        padding:10px;
+        cursor: pointer;
+       
+        
+       
+    }
+    .section-one__options{
+        display: none;
+    }
+    /* .user{
+        height: 20px;
+        width:20px;
+        margin-left: 5px;
+        margin-top: 10px;
+        display:inline-block;
+    } */
+    .section-one__signin {
+        padding: 10px;
+        margin-right: 50px;
+        border-color: antiquewhite;
+        cursor: pointer;
+        display: none;
+    }
+    .user{
+        height: 25px;
+        width:25px;
+        margin-left: 40px;
+        margin-top: 20px;
+        display:block ;
+    }
+    body{
+        font-size: 10px;
+    }
+    .section-three__images{
+        flex-wrap: wrap;
+        gap:10px;
+        margin-left: 10px;
+    }
+    
+    .logo{
+        height: 30px;
+        width:30px;
+        border-radius:70px ;
+    }
+    .name{
+        flex-basis: 40%;
+        margin-left: 20px;
+    }
+    .section-two__description2{
+        position: absolute;
+        left:15%;;
+        top:15%;
+        color:rgb(48, 29, 73);
+        font-size: 25px;
+        width: 40%;
+        display: inline;
+    
+    }
+    .section-two__description3{
+        position: absolute;
+        height:5px;
+        left:15%;
+        top:60%;
+        color:rgb(48, 29, 73);
+        font-size: 10px;
+        width:40%;
+        display: inline;
+    
+    }
+    .section-two__menus h1{
+        display: none;
+    }
+    .section-two__categaries{
+        display: none;
+       
+    }
+    .section-two__input{
+        display: none;
+    }
+    .section-six__icons{
+        margin-left: 1px;
+    }
+    .section-six__icons img{
+        margin-left: 10px;
+        height: 15px;
+        width:15px;
+        position: relative;
+        
+    }
+    .section-four{
+        margin-left: 5px;
+    }
+    .section-two__flex{
+        height: 300px;
+    }
+   
+
+}
